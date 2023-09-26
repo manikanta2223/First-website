@@ -1,0 +1,97 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1506143925201-0252c51780b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80");;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*#h1{
+    width: 100%;
+    background-color: rgb(9, 12, 14);
+    margin-top:0px ;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+    text-shadow: 2px 5px 5px greenyellow;
+    position: fixed;
+    top: 0px;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+    padding-right: 10px;    
+}
+nav ul li a{
+    border:1px solid black;
+    padding:10px 10px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background: red;
+    color:black;
+    cursor: pointer;
+}*/
+#nav{
+    width: 100%;
+    background-color: black;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+}
+#nav button{
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+#nav button:hover{
+    background-color: red;
+    color: black;
+}
+.container{
+    background-color:aqua;
+    border: 1px solid rgb(142, 60, 60);
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px 10px; 
+    color:black; 
+    margin-top: 50px;
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+    width: 80%;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.ten{
+    width: 80%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+#learn{
+    margin-top: 30px;
+    color: blue;
+    background-color: yellow;
+    padding: 20px 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+}
+#learn:hover{
+    background-color: red;
+    color: black;
+}
